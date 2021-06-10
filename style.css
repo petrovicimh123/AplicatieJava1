@@ -1,0 +1,98 @@
+body {
+  background-color: #f27b13;
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
+  overflow-x: hidden;
+}
+
+/*navbar */
+.nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #8c0303;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.7s;
+}
+
+.nav a {
+  display: block;
+  padding: 30px 30px;
+  font-size: 35px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav .close {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  margin-left: 15px;
+  font-size: 30px;
+}
+
+.slide a {
+  color: #000;
+  font-size: 36px;
+}
+
+#content {
+  padding: 20px;
+  transition: margin-left 0.7s;
+  overflow: hidden;
+  width: 100%;
+}
+/* Container */
+
+.container {
+  margin: 0;
+  padding: 0;
+  background-color: #f2bb16;
+  box-sizing: border-box;
+  text-align: center;
+  width: 1200px;
+  height: 500px;
+  margin-left: 350px;
+  border: 2px solid #074259;
+  margin-top: 10px;
+}
+
+#btn {
+  margin-top: 20px;
+  font-style: bold;
+  font-family: Monospace;
+  width: 350px;
+  height: 50px;
+}
+
+#output {
+  text-align: center;
+  font-size: large;
+}
+
+/* footer */
+.footer-bottom {
+  margin-top: 160px;
+}
+
+/* media query */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+  .container {
+    width: 325px;
+    margin-left: 25px;
+    margin-right: 0px;
+    height: 400px;
+  }
+
+  #btn {
+    width: 325px;
+  }
+}
